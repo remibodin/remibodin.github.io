@@ -1505,7 +1505,7 @@ ul.timeline p {
 @media screen and (min-width:1024px) {
     ul.timeline {
         position: relative;
-        height: 340px
+        height: 420px
     }
 
     ul.timeline li {
@@ -1524,32 +1524,38 @@ ul.timeline p {
         transform: translate(0, calc(-100% - 4px))
     }
 
+    ul.timeline #eva {
+        top: 400px;
+        left: calc(100% * ((2023 - 2008) / 17));
+        width: calc(100% * ( ((2025 - 2008) / 17 ) - ((2023 - 2008) / 17) ) );
+    }
+
     ul.timeline #gabsee {
         top: 320px;
-        left: 65%;
-        width: 35%
+        left: calc(100% * ((2019 - 2008) / 17));
+        width: calc(100% * ( ((2023 - 2008) / 17 ) - ((2019 - 2008) / 17) ) );
     }
 
     ul.timeline #apperture {
         top: 240px;
-        left: 45%;
-        width: 25%
+        left: calc(100% * ((2015 - 2008) / 17));
+        width: calc(100% * ( ((2019 - 2008) / 17 ) - ((2015 - 2008) / 17) ) );
     }
 
     ul.timeline #isart {
         top: 160px;
-        left: 26%;
-        width: 30%
+        left: calc(100% * ((2012 - 2008) / 17));
+        width: calc(100% * ( ((2016 - 2008) / 17 ) - ((2012 - 2008) / 17) ) );
     }
 
     ul.timeline #persistant {
         top: 80px;
-        left: 20%;
-        width: 50%
+        left: calc(100% * ((2011 - 2008) / 17));
+        width: calc(100% * ( ((2019 - 2008) / 17 ) - ((2011 - 2008) / 17) ) );
     }
 
     ul.timeline #gdl {
-        width: 50%
+        width: calc(100% * ((2015 - 2008) / 17));
     }
 }
 
